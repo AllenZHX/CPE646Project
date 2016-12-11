@@ -50,7 +50,7 @@ def getResponse(neighbors):
 
 #####################  main  #####################
 #for tt in range(3,18,2):
-for tt in range(20,51,10):
+for tt in range(21,52,10):
 	K=tt
 	results = []
 	for i in range(len(test_data)):
@@ -75,10 +75,10 @@ for tt in range(20,51,10):
 # the result is about 0.6845   when K=13
 # the result is about 0.6877   when K=15
 # the result is about 0.6798   when K=17
-# the result is about 0.6972   when K=20
-# the result is about 0.6830   when K=30
-# the result is about 0.6893   when K=40
-# the result is about 0.6924   when K=50
+# the result is about 0.6972   when K=21
+# the result is about 0.6830   when K=31
+# the result is about 0.6893   when K=41
+# the result is about 0.6924   when K=51
 
 
 
